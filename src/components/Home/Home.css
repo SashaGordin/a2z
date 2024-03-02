@@ -1,0 +1,133 @@
+/* Homepage.css */
+.homepage {
+  text-align: center;
+  margin-top: 93px;
+}
+
+.banner {
+  background-image: url('drinks-right.jpg'); /* Add your background image path */
+  background-size: 100%;
+  background-position: center;
+  color: #fff;
+  padding: 250px 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner h1 {
+  font-size: 36px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.mission {
+  padding: 40px 0;
+}
+
+.mission h2 {
+  font-size: 24px;
+  color: #2274A5;
+}
+
+.mission p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.contact {
+  padding: 40px 0;
+}
+
+.contact h2 {
+  font-size: 24px;
+  color: #2274A5;
+}
+
+.contact p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.content-wrapper {
+  max-width: 60%;
+  margin: 0 auto;
+
+}
+
+.why-wrapper {
+  text-align: left;
+}
+
+.why h2 {
+  font-size: 24px;
+  color: #2274A5;
+}
+
+.why-block {
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 24px; /* Set the font size for the title */
+  font-weight: bold; /* Make the title bold */
+  margin-bottom: 10px; /* Add space below the title */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px; /* Set the font size for the content */
+  line-height: 1.4; /* Adjust the line height for readability */
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.expandable-content {
+  display: none;
+  height: 0; /* Initially hide the content */
+  overflow: hidden;
+  transition: height 0.3s; /* Add a transition effect for height */
+}
+
+.expandable-content.open {
+  display: block;
+  height: auto; /* Show the content by setting height to auto */
+}
+
+.expand-button {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.arrow {
+  margin-right: 5px;
+  transition: transform 0.3s; /* Add a transition for the arrow rotation */
+  width: 50px;
+}
+
+.arrow.open {
+  transform: rotate(180deg); /* Rotate the arrow when the content is expanded */
+}
+
+
+
+

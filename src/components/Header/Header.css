@@ -1,0 +1,70 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2274A5;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links a:last-child {
+  padding-right: 10px;
+}
+
+nav a:not(.logo) {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  font-weight: 700;
+  font-family: 'Outfit';
+  position: relative;
+}
+
+nav a:not(.logo)::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #BB3A53;
+  bottom: -3px;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+nav a:not(.logo):hover::before {
+  width: 33%;
+}
+
+nav a.current::before {
+  width: 33%;
+}
+
+.contact-us {
+  background-color: lightblue; /* Light blue background */
+  border: 1px solid lightblue; /* Light blue border */
+  color: #000; /* Text color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  cursor: pointer;
+}
+
+.contact-us:hover {
+  background-color: #007bff; /* Darker blue background on hover */
+  border: 1px solid #007bff; /* Darker blue border on hover */
+  color: #fff; /* Text color on hover */
+}

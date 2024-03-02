@@ -1,0 +1,19 @@
+.about {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 93px;
+}
+
+.about h1 {
+  font-size: 36px;
+  color: #007BFF; /* A shade of blue */
+}
+
+.about p {
+  font-size: 18px;
+  margin: 20px 0;
+  color: #555; /* A grayish text color */
+}

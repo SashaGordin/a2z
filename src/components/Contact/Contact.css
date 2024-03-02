@@ -1,0 +1,106 @@
+.contact-container {
+  margin-top: 113px;
+  font-weight: 700;
+  font-family: 'Outfit';
+  height: 100%;
+}
+
+/* html, body, #root{
+  height: 100%;
+} */
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  font-size: 36px;
+}
+
+.form-container {
+  /* max-width: 400px; */
+  margin: 0 auto;
+  /* margin: 1em 10em 1em 5em; */
+  flex: 1;
+
+}
+
+.phone {
+  display: flex;
+  padding-bottom: .7em;
+  font-family: 'Outfit';
+}
+
+.icon {
+  padding-right: 1em;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #F4F1DE;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  background-color: #BB3A53;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: 'Outfit'
+}
+
+.elements {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.map-container {
+  background-color: #F4F1DE;
+  /* margin: 1em 5em 1em 10em; */
+  /* padding: 1em; */
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /* height: 100%;
+  min-height: 200px; */
+}
+
+.half {
+  flex-grow: 1;
+  padding: 10px;
+  margin: 0em 4em 0em 4em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  flex-grow: 1;
+  resize: vertical;
+  min-height: 150px;
+}
