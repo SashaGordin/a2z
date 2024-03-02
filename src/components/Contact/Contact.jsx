@@ -54,10 +54,10 @@ function ContactUs() {
       setErrors(newErrors);
     }
   };
-  const Longitude = -122.4194;
-  const Latitude = 37.7749;
-  const location = `${Latitude},${Longitude}`;
-  const customTitle = "AtoZ";
+  // const Longitude = -122.4194;
+  // const Latitude = 37.7749;
+  // const location = `${Latitude},${Longitude}`;
+  // const customTitle = "AtoZ";
 
   // q=HQ+Location+Latitude,Longitude
   // q=${Latitude},${Longitude}
