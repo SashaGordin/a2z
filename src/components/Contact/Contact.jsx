@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import './Contact.css';
-import API_KEY from '../../config.js';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 
 function ContactUs() {
+  const API_KEY = process.env.REACT_APP_API_KEY;
   const [formData, setFormData] = useState({
     name: '',
     email: '',
